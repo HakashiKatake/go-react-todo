@@ -2,6 +2,14 @@
 
 This is a full-stack Todo List application built with a Go backend and a React frontend. The backend uses MongoDB for data storage, and the frontend is styled with Chakra UI.
 
+- Website url: https://go-react-todo-hok4.onrender.com/
+
+# Demo:
+
+https://github.com/user-attachments/assets/172f65eb-f918-425e-aad0-4db52279f136
+
+
+
 ## Features
 
 - Add, update, and delete tasks
