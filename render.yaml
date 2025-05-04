@@ -11,3 +11,5 @@ services:
         value: production
       - key: MONGODB_URI
         sync: false
+      - key: GO_VERSION
+        value: 1.24.2
