@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: todo-go-app
+    env: go
+    buildCommand: cd client && npm install && npm run build && cd .. && go build -o app
+    startCommand: ./app
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
