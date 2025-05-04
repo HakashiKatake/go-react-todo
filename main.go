@@ -57,7 +57,7 @@ func main() {
 
 	// Configure CORS
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "http://localhost:5173",
+		AllowOrigins: "https://go-react-todo-hok4.onrender.com",
 		AllowHeaders: "Origin, Content-Type, Accept",
 		AllowMethods: "GET, POST, PATCH, DELETE, OPTIONS",
 	}))
