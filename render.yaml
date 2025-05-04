@@ -12,4 +12,4 @@ services:
       - key: MONGODB_URI
         sync: false
       - key: GO_VERSION
-        value: 1.24.2
+        value: 1.24.0
